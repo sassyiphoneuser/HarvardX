@@ -42,34 +42,27 @@ This is not a level that is useful conceptually to think about. Baisically you t
 
 ## Idea 
 
-* A little bat that loves bad food, but needs to watch his weight. 
-* The little bat gets tempted by various types of food 
-* Everytime it chooses bad food it loses a point 
-* Everytime it chooses good food it gains a point 
-* He has to try to make the right choices and get to 10 in a certain period of time
+A little bat that loves bad food, but needs to watch his weight. 
+
+* The little bat must avoid the donuts and try and get the bananas within the timeframe without losing all his life 
+* Everytime he hits a donut he loses a point 
+* Everytime he hits the bananas he gains a point 
 * When he loses something bad happens - He dies?
-* When he wins something good happens - He gets a girlfriend 
+* When he wins something good happens - He lives
 
-### Cast of characters
 
-Sprites (must have atleast 3)
+### Sprites (must have atleast 3)
 * bat 1
-* Bat 2 (prize)
-* frank (bad thing)
-* cheese puffs (bad)
-* fruit platter (extra points)
 * bananas (good)
 * donut (bad)
-* bread (surprise bad thing)
-* egg (good)
+
 
 #### Scripts (must have atleast 3 total)
-
 
 * 1 condition - forks in the road (the different choices of food he eats)
 * 1 loop - do something again, again and again (he gets offered food again and again till he reaches 10)
 * 1 variable - a value that can change based on conditions (his points when he eats good or bad food)
-* 1 sound - audible noise (he gets a piggy sound when he eats a bad thing, and a positive sound when he eats a good thing) 
+* 1 sound - audible noise (he gets a piggy sound when he eats a bad thing, and a fairy dust sound when he eats a good thing) 
 
 
 
