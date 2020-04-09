@@ -11,4 +11,7 @@ You know you are looking at a hexadecimal because it starts with a 0x
 & is get the address 
 * is go to the address 
 
+malloc - allocates memory 
+free - gives it back to the computer 
+
 
