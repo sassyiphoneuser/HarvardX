@@ -19,7 +19,7 @@ Fortunately, the iRobot Open Interface allows for easy programming. There are a 
 * Four wires
 * Arduino IDE which you can download or use the online version. Dealers choice. 
 
-###Step 1
+### Step 1
 
 Remove your Roomba'c cover. This is undoubtedly the scariest bit. There are a lot of creaking sounds, and it feels as though the plastic will break. Push through this. You should* be okay. 
 
@@ -27,7 +27,7 @@ Once you have taken the cover off (just the white bit) you will see a port that 
 
 *I take no responsibility for your crap Roomba. 
 
-###Step 2
+### Step 2
 
 Get your Arduino (I have a UNO) and start connecting.: 
 
@@ -36,11 +36,11 @@ Get your Arduino (I have a UNO) and start connecting.:
 * Roomba port 4 (TXD) <-> Arduino D3
 * Roomba port 5 (BRC) <-> Arduino D5
 
-Here is a pic:  
+Here is a pic: ![roomba interface](images/roomba.png)
 
 How did I figure out which ports? A shit ton of googling. But trust me, this is the right way to do it. I don't know why. It just is. 
 
-###Step 3
+### Step 3
 
 
 Connect the USB cable between the Arduino and the computer.
@@ -54,6 +54,6 @@ First to your day and time and then make changes to the Roomba schedule. You mak
 
 * Lines 152-167 you set the time you want the Roomba to go off each day. 
 
-###Step 4
+### Step 4
 
 Press save and wait for your Roomba to sing. That means that all is well and you no longer have to press a button again. 
