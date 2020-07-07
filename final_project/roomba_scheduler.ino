@@ -151,19 +151,19 @@ void setSchedule ()
 
   Roomba.write((byte)167) ; // Command code
   Roomba.write((byte)127) ; // Days (127 (dec) = 01111111 (binary) = 0(Sat)(Fri)(Thu)(Wed)(Tue)(Mon)(Sun) -> schedule everyday)
-  Roomba.write((byte)19) ; // Sunday Hour
+  Roomba.write((byte)0) ; // Sunday Hour
   Roomba.write((byte)0) ; // Sunday Minute
-  Roomba.write((byte)19) ; // Monday Hour
+  Roomba.write((byte)18) ; // Monday Hour
   Roomba.write((byte)0) ; // Monday Minute
-  Roomba.write((byte)19) ; // Tuesday Hour
+  Roomba.write((byte)18) ; // Tuesday Hour
   Roomba.write((byte)0) ; // Tuesday Minute
-  Roomba.write((byte)19) ; // Wednesday Hour
+  Roomba.write((byte)0) ; // Wednesday Hour
   Roomba.write((byte)0) ; // Wednesday Minute
-  Roomba.write((byte)19) ; // Thursday Hour
+  Roomba.write((byte)18) ; // Thursday Hour
   Roomba.write((byte)0) ; // Thursday Minute
-  Roomba.write((byte)19) ; // Friday Hour
-  Roomba.write((byte)05) ; // Friday Minute
-  Roomba.write((byte)19) ; // Saturday Hour
+  Roomba.write((byte)0) ; // Friday Hour
+  Roomba.write((byte)0) ; // Friday Minute
+  Roomba.write((byte)12) ; // Saturday Hour
   Roomba.write((byte)0) ; // Saturday Minute
 
   delay(500) ;
